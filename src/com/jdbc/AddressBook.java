@@ -42,7 +42,7 @@ public class AddressBook {
 				contactInfo.setCity(resultSet.getString("city"));
 				contactInfo.setState(resultSet.getString("state"));
 				contactInfo.setZip(resultSet.getInt("zip"));
-				contactInfo.setPhoneNumber(resultSet.getString("PhoneNumber"));
+				contactInfo.setPhoneNumber(resultSet.getString("phoneNumber"));
 				contactInfo.setEmailId(resultSet.getString("email"));
 				contactInfo.setDateAdded(resultSet.getDate("dateadded").toLocalDate());
 				contactInfo.setBookName(resultSet.getString("bookNamed"));
@@ -88,7 +88,7 @@ public class AddressBook {
 				contactInfo.setCity(resultSet.getString("city"));
 				contactInfo.setState(resultSet.getString("state"));
 				contactInfo.setZip(resultSet.getInt("zip"));
-				contactInfo.setPhoneNumber(resultSet.getString("PhoneNumber"));
+				contactInfo.setPhoneNumber(resultSet.getString("phoneNumber"));
 				contactInfo.setEmailId(resultSet.getString("email"));
 				contactInfo.setBookName(resultSet.getString("booknamed"));
 				contactInfo.setDateAdded(resultSet.getDate("dateadded").toLocalDate());
