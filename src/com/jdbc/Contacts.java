@@ -4,17 +4,17 @@ import java.time.LocalDate;
 
 public class Contacts {
 
-	private String firstName;
-	private String lastName;
-	private String address;
-	private String city;
-	private String state;
-	private int zip;
-	private String phoneNumber;
-	private String emailId;
-	private String contactType;
-	private LocalDate dateAdded;
-	private String BookName;
+		private String firstName;
+	    private String lastName;
+	    private String address;
+	    private String city;
+	    private String state;
+	    private int zip;
+	    private String phoneNumber;
+	    private String emailId;
+	    private String contactType;
+	    private LocalDate dateAdded;
+	    private String BookName;;
 
 	public String getFirstName() {
 		return firstName;
